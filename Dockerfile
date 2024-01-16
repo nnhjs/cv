@@ -1,6 +1,6 @@
 # Use the official lightweight Node.js 18 image.
 # https://hub.docker.com/_/node
-FROM node:18-slim
+FROM node:20-slim
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
@@ -10,13 +10,13 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install all dependencies.
-RUN npm install
+RUN pnpm install
 
 # Copy local code to the container image.
 COPY . .
 
 # Build the app
-RUN npm run build
+RUN pnpm run build
 
 # Run the web service on container startup.
-CMD [ "npm", "start" ]
+CMD [ "pnpm", "start" ]
