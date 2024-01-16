@@ -1,22 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
+import { GotItLogo, SolidTech, MindX, HocVanChiHien } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -65,7 +47,7 @@ export const RESUME_DATA = {
       link: "https://vn.got-it.ai/",
       badges: [],
       title: "Intern Developer → Frontend Developer",
-      logo: ParabolLogo, // TODO: change logo
+      logo: GotItLogo,
       start: "2021",
       end: "Present",
       description:
@@ -76,7 +58,7 @@ export const RESUME_DATA = {
       link: "https://mindx.edu.vn/",
       badges: [""],
       title: "Teaching Assistant",
-      logo: ClevertechLogo, // TODO: change logo
+      logo: MindX,
       start: "2021",
       end: "2021",
       description:
@@ -87,7 +69,7 @@ export const RESUME_DATA = {
       link: "https://solidtech.vn/",
       badges: [],
       title: "Fresher Developer",
-      logo: JojoMobileLogo, // TODO: change logo
+      logo: SolidTech,
       start: "2020",
       end: "2021",
       description:
@@ -110,7 +92,7 @@ export const RESUME_DATA = {
         "React Native"
       ],
       description: "A mobile application for learning Vietnamese. Technologies: React Native, Javascript.",
-      logo: ConsultlyLogo, // TODO: change logo
+      logo: HocVanChiHien,
       link: {
         label: "hocvanchihien.com",
         href: "https://play.google.com/store/apps/details?id=com.hvch&hl=vi",
