@@ -10,13 +10,13 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install all dependencies.
-RUN pnpm install
+RUN npm install
 
 # Copy local code to the container image.
 COPY . .
 
 # Build the app
-RUN pnpm run build
+RUN npm run build
 
 # Run the web service on container startup.
-CMD [ "pnpm", "start" ]
+CMD [ "npm", "start" ]
