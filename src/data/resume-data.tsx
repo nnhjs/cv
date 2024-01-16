@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   name: "Hung Nguyen",
   initials: "nnhjs",
   location: "Ha Noi, Viet Nam",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  locationLink: "https://www.google.com/maps/place/HaNoi",
   about:
     "Frontend Engineer focused on building high-quality web applications.",
   summary:
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
     {
       company: "MindX",
       link: "https://mindx.edu.vn/",
-      badges: [""],
+      badges: [],
       title: "Teaching Assistant",
       logo: MindX,
       start: "2021",
