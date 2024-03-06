@@ -2,7 +2,7 @@ import { GotItLogo, SolidTech, MindX, HocVanChiHien } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Hung Nguyen",
+  name: "Hung Nguyen Nghia",
   initials: "nnhjs",
   location: "Ha Noi, Viet Nam",
   locationLink: "https://www.google.com/maps/place/HaNoi",
@@ -10,7 +10,6 @@ export const RESUME_DATA = {
     "Frontend Engineer focused on building high-quality web applications.",
   summary:
     "I work mostly with TypeScript, React. I'm interested in building high-quality web applications, and I'm always looking for new opportunities to learn and grow.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/52577080?v=4",
   personalWebsiteUrl: "https://nnhjs.me",
   contact: {
     email: "nnhungjs@gmail.com",
