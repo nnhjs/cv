@@ -17,6 +17,7 @@ export function ModeToggle() {
       onClick={() => {
         setTheme(isDark ? "light" : "dark");
       }}
+      title={`Switch to ${isDark ? "light" : "dark"} mode`}
     >
       {isDark ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
     </Button>

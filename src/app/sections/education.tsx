@@ -14,7 +14,7 @@ export function Education() {
                 <h3 className="font-semibold leading-none">
                   {education.school}
                 </h3>
-                <div className="text-sm tabular-nums text-gray-500">
+                <div className="text-sm tabular-nums">
                   {education.start} - {education.end}
                 </div>
               </div>

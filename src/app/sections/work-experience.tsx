@@ -18,25 +18,23 @@ export function WorkExperience() {
                   </a>
 
                   <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
+                    {work.badges.map((badge) => (
+                      <Badge
+                        variant="secondary"
+                        className="align-middle text-xs"
+                        key={badge}
+                      >
+                        {badge}
+                      </Badge>
+                    ))}
+                  </span>
                 </h3>
-                <div className="text-sm tabular-nums text-gray-500">
+                <div className="text-sm tabular-nums">
                   {work.start} - {work.end}
                 </div>
               </div>
 
-              <h4 className="font-mono text-sm leading-none">
-                {work.title}
-              </h4>
+              <h4 className="font-mono text-sm leading-none">{work.title}</h4>
             </CardHeader>
             <CardContent className="mt-2 text-xs">
               {work.description}

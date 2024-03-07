@@ -23,24 +23,14 @@ export function Introduction() {
         </p>
         <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
           {RESUME_DATA.contact.email ? (
-            <Button
-              className="size-8"
-              variant="outline"
-              size="icon"
-              asChild
-            >
+            <Button className="size-8" variant="outline" size="icon" asChild>
               <a href={`mailto:${RESUME_DATA.contact.email}`}>
                 <MailIcon className="size-4" />
               </a>
             </Button>
           ) : null}
           {RESUME_DATA.contact.tel ? (
-            <Button
-              className="size-8"
-              variant="outline"
-              size="icon"
-              asChild
-            >
+            <Button className="size-8" variant="outline" size="icon" asChild>
               <a href={`tel:${RESUME_DATA.contact.tel}`}>
                 <PhoneIcon className="size-4" />
               </a>
@@ -54,7 +44,7 @@ export function Introduction() {
               size="icon"
               asChild
             >
-              <a href={social.url}>
+              <a href={social.url} target="_blank">
                 <social.icon className="size-4" />
               </a>
             </Button>
@@ -75,7 +65,7 @@ export function Introduction() {
       </div>
 
       <Avatar className="size-32">
-        <AvatarImage alt={RESUME_DATA.name} src={'avatar.png'} />
+        <AvatarImage alt={RESUME_DATA.name} src={"avatar.png"} />
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
       </Avatar>
     </div>

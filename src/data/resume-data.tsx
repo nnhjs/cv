@@ -6,8 +6,7 @@ export const RESUME_DATA = {
   initials: "nnhjs",
   location: "Ha Noi, Viet Nam",
   locationLink: "https://www.google.com/maps/place/HaNoi",
-  about:
-    "Frontend Engineer focused on building high-quality web applications.",
+  about: "Frontend Engineer focused on building high-quality web applications.",
   summary:
     "I work mostly with TypeScript, React. I'm interested in building high-quality web applications, and I'm always looking for new opportunities to learn and grow.",
   personalWebsiteUrl: "https://nnhjs.me",
@@ -34,7 +33,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Engineering and Technology, Vietnam National University",
+      school:
+        "University of Engineering and Technology, Vietnam National University",
       degree: "Computer Engineering",
       start: "2018",
       end: "2022",
@@ -79,18 +79,20 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Remix",
+    "React Native",
     "Jest",
     "Cypress",
     "SQLite",
+    "Nest",
+    "tRPC",
+    "Prisma",
   ],
   projects: [
     {
       title: "Hoc Van Chi Hien",
-      techStack: [
-        "Side Project",
-        "React Native"
-      ],
-      description: "A mobile application for learning Vietnamese. Technologies: React Native, Javascript.",
+      techStack: ["Side Project", "React Native"],
+      description:
+        "A mobile application for learning Vietnamese. Technologies: React Native, Javascript.",
       logo: HocVanChiHien,
       link: {
         label: "hocvanchihien.com",

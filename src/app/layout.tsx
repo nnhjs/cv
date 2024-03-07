@@ -6,19 +6,10 @@ import "./globals.css";
 import React from "react";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "@/components/mode-toogle";
-import { Header } from "@/app/header";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | Curriculum vitae`,
+  title: `${RESUME_DATA.name} | Frontend Engineer | Resume`,
   description: RESUME_DATA.summary,
-  icons: [
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/avatar.png",
-    },
-  ],
 };
 
 // If loading a variable font, you don't need to specify the font weight
@@ -41,8 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="container relative mx-auto scroll-my-12 overflow-auto px-4 md:px-16 print:px-12">
-            <Header />
+          <main className="container relative mx-auto overflow-auto p-4 md:p-16 md:pt-4 print:p-12">
             {children}
           </main>
         </ThemeProvider>
