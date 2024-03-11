@@ -63,11 +63,6 @@ export function Introduction() {
           ) : null}
         </div>
       </div>
-
-      <Avatar className="size-32">
-        <AvatarImage alt={RESUME_DATA.name} src={"avatar.png"} />
-        <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-      </Avatar>
     </div>
   );
 }
