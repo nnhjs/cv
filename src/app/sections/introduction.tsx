@@ -1,7 +1,6 @@
 import { RESUME_DATA } from "@/data/resume-data";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export function Introduction() {
   return (
